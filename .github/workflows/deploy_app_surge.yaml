@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Access the Repo
-       uses: actions/checkout@v2
+      # -name: Access the Repo
+      -uses: actions/checkout@v2
 
       -name: Install NodeJS
        uses: actions/setup-node@v2-beta
