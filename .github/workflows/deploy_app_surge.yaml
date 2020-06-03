@@ -5,7 +5,7 @@ on:
     branch: [master]
 
 jobs:
-  Build and Deploy:
+  Build_and_Deploy:
     # Make a Ubuntu VM
     runs-on: ubuntu-latest
 
