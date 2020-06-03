@@ -10,7 +10,7 @@ jobs:
 
     steps:
       -name: Access the Repo
-       uses: actions/checout@v2
+       uses: actions/checkout@v2
 
       -name: Install NodeJS
        uses: actions/setup-node@v2-beta
