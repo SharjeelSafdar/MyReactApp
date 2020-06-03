@@ -26,9 +26,8 @@ jobs:
       #   run:  sudo apt update && sudo apt install yarn
 
       - name: Install Yarn
-        run:  borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
+        run: borales/actions-yarn@v2.0.0
+        with: {cmd: install}
       
       - name: Build React App
         run: yarn build
