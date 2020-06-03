@@ -1,7 +1,8 @@
 name: Deploy React App to Surge
 
 on:
-  push: [master]
+  push: 
+    branch: [master]
 
 jobs:
   Build and Deploy:
