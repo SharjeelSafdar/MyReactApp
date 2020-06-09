@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Hi() {
+function hi() {
   return <div>Hello, World!</div>;
 }
 
-ReactDOM.render(<Hi/>, document.querySelector('#root'));
-
-
+ReactDOM.render(<hi/>, document.querySelector('#root'));
 
 
 
