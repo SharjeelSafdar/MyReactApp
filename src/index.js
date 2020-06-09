@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function hi () {
+function Hi() {
   return <div>Hello, World!</div>;
 }
 
-ReactDOM.render(<hi/>, document.querySelector('#root'))
+ReactDOM.render(<Hi/>, document.querySelector('#root'));
 
 
 
