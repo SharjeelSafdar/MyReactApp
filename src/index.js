@@ -4,8 +4,12 @@ import ReactDOM from 'react-dom';
 function Hi() {
   return  <div>
             Hello, <strong>Sharjeel</strong>!
+            <img src="./images/logo/jpg" alt="4IRU Logo"/>
             <h1>Bootcamp 2020</h1>
-            <p>Contents of Bootcamp 2020:</p>
+            <p>
+              Free online learn to earn fasttrack bootcamp to learn freelancing and do remote work in the 
+              COVID-19 economic environment. Contents of Bootcamp 2020:
+            </p>
             <ul>
               <li>Short Intro to GitHub</li>
               <li>React for Beginners</li>
