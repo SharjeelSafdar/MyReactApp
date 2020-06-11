@@ -5,4 +5,4 @@ function Hi() {
   return <div>Hello, World!</div>;
 }
 
-ReactDOM.render(<Hi/>, document.querySelector('#root'));
+ReactDOM.render(<Hi/>, document.getElementById('root'));
