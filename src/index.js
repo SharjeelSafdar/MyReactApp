@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Hi() {
-  return React.createElement('div', null, 'Hello, World');
-  // <div>Hello, World!</div>;
+  return <div>Hello, <strong>Sharjeel</strong>!</div>;
+  // React.createElement('div', null, 'Hello, Sharjeel!');
 }
 
 ReactDOM.render(<Hi/>, document.getElementById('root'));
