@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function Hi() {
   return  <div>
             Hello, <strong>Sharjeel</strong>!
-            <p><img src="./images/logo.jpg" alt="4IRU Logo" title="4IRU Logo"/></p>
+            <p><img src=".\images\logo.jpg" alt="4IRU Logo" title="4IRU Logo"/></p>
             <h1>Bootcamp 2020</h1>
             <p>
               Free online learn to earn fasttrack bootcamp to learn freelancing and do remote work in the 
