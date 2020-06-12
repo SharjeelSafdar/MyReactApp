@@ -22,10 +22,10 @@ body {
 }
 
 .contents {
+  width: 22pc;
   position: absolute;
-  width: 20pc;
   top: 10pc;
-  left: 5pc;
+  left: 4pc;
 }
 
 .faculty {
