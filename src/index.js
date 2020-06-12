@@ -23,6 +23,8 @@ function Hi() {
               <li>Docker and Google Cloud Run</li>
               <li>CI/CD</li>
             </ul>
+            <p>Page created by Mian Muhammad Sharjeel Safdar.</p>
+            <p>Repository Link: <a href="https://github.com/SharjeelSafdar/MyReactApp">Gitub/SharjeelSafdar/MyReactApp</a></p>
           </div>;
   // React.createElement('div', null, 'Hello, Sharjeel!');
 }
