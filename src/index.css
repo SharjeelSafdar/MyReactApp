@@ -2,14 +2,19 @@ body {
   background-image: url("/images/logo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px 0px;
   color: white;
+}
+
+.mainDiv {
+  position: absolute;
 }
 
 .mainHeading {
   text-align: center;
-  position: 50px;
-  padding-top: 4pc;
+  margin: 0px;
+  position: absolute;
+  top: 5pc;
+  left: 38pc;
 }
 
 .courseDetails {
@@ -17,19 +22,25 @@ body {
 }
 
 .contents {
-  padding-left: 1pc;
-  width: 30%;
-  height: 60%;
+  position: absolute;
+  width: 20pc;
+  top: 10pc;
+  left: 5pc;
 }
 
 .faculty {
-  padding-left: 40pc;
-  
+  position: absolute;
+  width: 10pc;
+  top: 10pc;
+  left: 65pc;
 }
 
 .footer {
   text-align: center;
-  padding-top: 4pc;
+  width: max-content;
+  position: absolute;
+  left: 28.5pc;
+  top: 33pc;
 }
 
 .footer a {
