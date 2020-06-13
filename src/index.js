@@ -4,7 +4,53 @@ import './index.css'
 
 function Hi() {
   return  <div className="mainDiv">
+            <nav className="navBar">
+              <a href="#">
+                <img className="logo" src="/images/pana-cloud.png" alt="Pana Cloud Logo" title="Pana Cloud Logo"/>
+              </a>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                  <a 
+                    href="https://www.youtube.com/channel/UCZUgRzBPk8CoYeHhbPL8OWg"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    English Classes
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://www.youtube.com/channel/UCfAX44elSfBV66jU53akpBA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Urdu Classes
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://panacloud.github.io/bootcamp-2020/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Syllabus
+                  </a>
+                </li>
+                <li>
+                  <a 
+                    href="https://panacloud.github.io/bootcamp-2020/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Projects
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
             <h1 className="mainHeading">Bootcamp 2020</h1>
+            
             <div className="courseDetails">
               <div className="contents">
                 <h3>Contents:</h3>

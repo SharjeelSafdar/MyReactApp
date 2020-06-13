@@ -6,41 +6,69 @@ body {
 }
 
 .mainDiv {
-  position: absolute;
+  position: relative;
+}
+
+.navBar {
+  width: 80pc;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.logo {
+  width: 125px;
+  height: 50px;
+  margin: 20px 50px;
+  }
+
+.navBar ul {
+  flex: 1;
+  text-align: right;
+}
+
+.navBar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navBar ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .mainHeading {
   text-align: center;
-  width: max-content;
-  position: absolute;
+  position: relative;
   top: 5pc;
-  left: 36pc;
 }
 
 .courseDetails {
   display: flex;
+  position: relative;
 }
 
 .contents {
   width: 22pc;
-  position: absolute;
-  top: 10pc;
+  position: relative;
+  top: 5pc;
   left: 4pc;
 }
 
 .faculty {
-  position: absolute;
+  position: relative;
   width: 10pc;
-  top: 10pc;
-  left: 65pc;
+  top: 5pc;
+  right: -43pc;
 }
 
 .footer {
   text-align: center;
-  width: max-content;
-  position: absolute;
-  left: 28.5pc;
-  top: 33pc;
+  position: relative;
+  top: 8pc;
 }
 
 .footer a {
