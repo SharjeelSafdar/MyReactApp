@@ -5,11 +5,11 @@ import './index.css'
 function Hi() {
   return  <div className="mainDiv">
             <nav className="navBar">
-              <a href="#">
+              <a href="./">
                 <img className="logo" src="/images/pana-cloud.png" alt="Pana Cloud Logo" title="Pana Cloud Logo"/>
               </a>
               <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="./">Home</a></li>
                 <li>
                   <a 
                     href="https://www.youtube.com/channel/UCZUgRzBPk8CoYeHhbPL8OWg"
